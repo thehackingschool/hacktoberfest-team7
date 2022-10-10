@@ -1,0 +1,54 @@
+/* the header */
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 70px;
+}
+
+
+/* header logo and text */
+#header-branding {
+  display: flex;
+  align-items: center;
+}
+
+#header-branding img {
+  width: 50px;
+  padding: 5px;
+}
+
+#header-branding a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+
+/* header other links */
+#header-links a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+#header-ctc {
+  background-color: orange;
+}
+
+#header-ctc:hover {
+  background-color: black;
+  border: 1px solid white;
+}
+
+/* hover effects on all links */
+#header a:hover {
+  font-weight: bolder;
+}
+
+
